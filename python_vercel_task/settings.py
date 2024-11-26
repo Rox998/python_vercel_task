@@ -80,7 +80,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'python_vercel_task.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 # Carga el archivo .env
