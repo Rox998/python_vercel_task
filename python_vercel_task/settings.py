@@ -87,9 +87,6 @@ WSGI_APPLICATION = 'python_vercel_task.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 
-# Carga el archivo .env
-env_path = pathlib.Path(__file__).resolve().parent.parent / '.env'
-load_dotenv(env_path)
 
 # Configuración de la base de datos
 DATABASES = {
